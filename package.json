@@ -1,0 +1,46 @@
+{
+  "name": "botnet-api4api",
+  "version": "1.0.0",
+  "description": "Botnet Api4Api by FloXID",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "license": "MIT",
+  "author": "FloXID",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.11.0",
+    "body-parser": "^1.20.3",
+    "cfonts": "^3.3.0",
+    "chalk": "^5.6.0",
+    "cheerio": "^1.1.2",
+    "colors": "^1.4.0",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "fake-useragent": "^1.0.1",
+    "figlet": "^1.9.3",
+    "gradient-string": "^3.0.0",
+    "header-generator": "^2.1.79",
+    "hpack": "^1.0.0",
+    "http2-wrapper": "^2.2.1",
+    "mineflayer": "^4.29.0",
+    "minimist": "^1.2.8",
+    "node-fetch": "^3.3.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "qrcode-terminal": "^0.12.0",
+    "random-useragent": "^0.5.0",
+    "randomstring": "^1.3.1",
+    "set-cookie-parser": "^2.7.2",
+    "sockopt": "^2.0.1",
+    "socks": "^2.8.7",
+    "ssh2": "^1.17.0",
+    "user-agents": "^1.1.672"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
